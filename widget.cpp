@@ -17,4 +17,6 @@ Widget::~Widget()
 void Widget::on_pushButton_clicked()
 {
     ui->textBrowser->setText(tr("test for QString"));
+    int value=20;
+    ui->textBrowser->setText(QString::number(20,10));
 }
