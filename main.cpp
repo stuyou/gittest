@@ -1,5 +1,6 @@
 #include <QtGui/QApplication>
 #include "widget.h"
+#include <QString>
 
 int main(int argc, char *argv[])
 {
