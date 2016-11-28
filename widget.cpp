@@ -16,5 +16,6 @@ Widget::~Widget()
 
 void Widget::on_pushButton_clicked()
 {
-    ui->textBrowser->setText(tr("test for QString"));
+    double value=99.0;
+    ui->textBrowser->setText(QString::number(value,'g',6));
 }
