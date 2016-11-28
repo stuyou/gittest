@@ -21,4 +21,7 @@ void Widget::on_pushButton_clicked()
     ui->textBrowser->setText(QString::number(value,'g',6));
     int value1=20;
     ui->textBrowser->setText(QString::number(value1,10));
+    long int value2=30;
+    ui->textBrowser->setText(QString::number(value2,10));
+
 }
